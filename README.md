@@ -148,22 +148,25 @@ http://<public-ip>:5000/list-bucket-content/
 
 This will return the contents of the S3 bucket. The service listens on port 5000.
 
-Infrastructure Overview
+### Infrastructure Overview
 The following resources will be created:
 
-##### EC2 Instance
+#### EC2 Instance -
 ![ec2_instance](screenshots/ec2_instance.png)
 
-##### Security Groups
+---------------------------------
+#### Security Groups -
 ![security_groups](screenshots/security_groups.png)
 
-##### IAM Role
+---------------------------------
+#### IAM Role -
 ![iam_role](screenshots/iam_role.png)
 
-##### S3 Bucket
+---------------------------------
+#### S3 Bucket -
 ![s3_bucket](screenshots/s3_bucket.png)
 
-Clean Up
+### Clean Up
 To destroy the infrastructure created by Terraform, run:
 
 ```bash
